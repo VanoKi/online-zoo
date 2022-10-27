@@ -4,13 +4,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
 .header {
   background: #000000;
   width: 1600px;
   height: 80px;
   color: #FFFFFF;
-  text-decoration: none;
 }
 nav {
   display: flex;
@@ -18,4 +16,7 @@ nav {
 }
 ul {
   list-style-type: none;
+}
+a {
+  text-decoration: none;
 }
