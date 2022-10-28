@@ -9,9 +9,9 @@ body {
 .container {
   width: 1600px;
   margin: 0 auto;
-  padding: 0;
 }
 .header {
+  display: flex;
   height: 80px;
   background: #000000;
   backdrop-filter: blur(2px);
@@ -25,22 +25,20 @@ nav {
 ul {
   list-style-type: none;
   display: flex;
-  /*margin-top: 29px;*/
   margin: 0 auto;
+  padding: 0;
 }
 a {
   text-decoration: none;
   color: #FFFFFF;
 }
 .logo {
-  margin-top: 14px;
+  /*margin-top: 14px;*/
   margin-left: 220px;
-  margin-right: 25px;
+  margin-right: 63px;
   border: #FFFFFF 2px solid;
   width: 82px;
   height: 52px;
-  /*left: 220px;
-  top: 14px;*/
 }
 .logo_link {
   display: block;
@@ -53,15 +51,16 @@ a {
   text-align: center;
 }
 .item {
-  /*margin-top: 29px;*/
   margin-right: 58px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
 }
+.last_item {
+  margin-right: 438px;
+}
 .copyright {
-  /*margin-top: 29px;*/
   margin-right: 220px;
 }
 .giant_panda {
