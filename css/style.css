@@ -64,8 +64,16 @@ a {
   margin-right: 220px;
 }
 .giant_panda {
+  display: flex;
   background-image: url(../img/Giant\ Panda.png);
-  height: 700px;
+  /*height: 700px;*/
   margin: 0 auto;
   background-position: center;
+}
+.button_wrap {
+  margin-top: 12px;
+  margin-left: 807px;
+  background-image: url(../img/Ellipse\ 6.png);
+  width: 465px;
+  height: 465px;
 }
