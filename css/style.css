@@ -30,6 +30,7 @@ a {
   color: #FFFFFF;
 }
 .logo {
+  margin-top: 14px;
   margin-left: 220px;
   margin-right: 63px;
   border: #FFFFFF 2px solid;
@@ -37,11 +38,6 @@ a {
   height: 52px;
   left: 220px;
   top: 14px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 19.0145px;
-  line-height: 23px;
-  text-align: center;
 }
 .logo_link {
   display: block;
