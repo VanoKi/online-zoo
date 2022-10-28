@@ -8,10 +8,11 @@ body {
 }
 .container {
   width: 1600px;
-  height: 80px;
 }
 .header {
+  height: 80px;
   background: #000000;
+  backdrop-filter: blur(2px);
   color: #FFFFFF;
 }
 nav {
@@ -36,6 +37,21 @@ a {
   height: 52px;
   left: 220px;
   top: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 23px;
+  text-align: center;
+}
+.logo_link {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 23px;
+  text-align: center;
 }
 .item {
   /*margin-top: 29px;*/
