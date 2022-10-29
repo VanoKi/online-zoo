@@ -22,7 +22,7 @@ nav {
   /*justify-content: space-between;*/
   align-items: center;
 }
-ul {
+.nav_ul {
   list-style-type: none;
   display: flex;
   margin: 0 auto;
@@ -69,6 +69,7 @@ a {
   /*height: 700px;*/
   margin: 0 auto;
   background-position: center;
+  border: solid 2px red;
 }
 .button_wrap {
   margin-top: 12px;
@@ -76,4 +77,5 @@ a {
   background-image: url(../img/Ellipse\ 6.png);
   width: 465px;
   height: 465px;
+  border: solid 2px red;
 }
