@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0;
 }
+div {
+  border: solid 2px red;
+}
 .container {
   width: 1600px;
   margin: 0 auto;
@@ -65,33 +68,59 @@ a {
 }
 .giant_panda {
   display: flex;
+  flex-direction: column;
   background-image: url(../img/Giant\ Panda.png);
-  /*height: 700px;*/
+  height: 700px;
   margin: 0 auto;
   background-position: center;
-  border: solid 2px red;
 }
-.button_wrap {
+.wrap {
   margin-top: 12px;
   margin-left: 807px;
   background-image: url(../img/Ellipse\ 6.png);
+  background-position: top left;
+  /*background: no-repeat;*/
   width: 465px;
   height: 465px;
-  border: solid 2px red;
 }
 .pandas_list {
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+  padding-top: 76px;
+  padding-left: 73px;
+  /*margin-bottom: 60px;*/
   list-style-type: none;
   border: solid 2px green;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 106.496px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase
 }
 .pandas_list_item {
-  font-style: normal;
-font-weight: 700;
-font-size: 106.496px;
-line-height: 80px;
-text-align: center;
-text-transform: uppercase;
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 .pandas_list_item_yellow {
   color: #FFEE2E;
+}
+.button_wrap {
+  /*background-image: url(../img/btn_1.png);*/
+  margin-left: 983px;
+  margin-top: 60px;
+  /*display: flex;*/
+}
+.button_panda {
+  display: block;
+  /*background-color: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);*/
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  width: 298px;
+  height: 54px; 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
 }
