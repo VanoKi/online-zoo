@@ -79,3 +79,19 @@ a {
   height: 465px;
   border: solid 2px red;
 }
+.pandas_list {
+  list-style-type: none;
+  border: solid 2px green;
+}
+.pandas_list_item {
+  font-style: normal;
+font-weight: 700;
+font-size: 106.496px;
+line-height: 80px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.pandas_list_item_yellow {
+  color: #FFEE2E;
+}
