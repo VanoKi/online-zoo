@@ -127,7 +127,14 @@ div {
 .backstage {
   height: 723px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+}
+.backstage_item {
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
+  width: 1161px;
+  height: 403px;
 }
 .bambo_cap {
   background: url(../img/bamboo-cap.png);
