@@ -121,18 +121,19 @@ a {
   border: none;
 }
 /*backstage*/
-.backstage {
+div {
   border: solid 2px red;
+}
+.backstage {
   height: 723px;
   display: flex;
   justify-content: center;
 }
 .bambo_cap {
-  border: solid 2px red;
   background: url(../img/bamboo-cap.png);
   width: 609px;
   height: 403px;
 }
-.text_colomn {
-  border: solid 2px red;
+.text_column {
+  width: 465px;
 }
