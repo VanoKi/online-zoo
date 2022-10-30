@@ -206,3 +206,26 @@ a {
 .card_6 {
   background: url(../img/Rectangle\ 5\ pingwin.png);
 }
+.card_text {
+  display: flex;
+  flex-direction: row;
+  color: #000000;
+}
+.pets_logo {
+  background: url();
+}
+.name {
+  display: block;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.place {
+  display: block;
+  margin: 0;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+}
