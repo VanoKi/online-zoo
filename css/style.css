@@ -247,3 +247,7 @@ a {
 .banana {
   background: url(../img/banana-bamboo_icon.png);
 }
+.text_move {
+  margin-top: 8px;
+  margin-left: 16px;
+}
