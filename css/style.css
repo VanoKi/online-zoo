@@ -168,3 +168,20 @@ a {
   font-size: 16px;
   line-height: 140%;
 }
+/*pets*/
+.pets {
+  border: solid 2px red;
+  width: 1158px;
+  height: 872px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item_pets {
+  border: solid 2px red; 
+  width: 366px;
+  height: 426px;
+}
+.item_img {
+  background: url(../img/Rectangle\ 5.png);
+}
+
