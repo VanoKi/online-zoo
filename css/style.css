@@ -211,9 +211,6 @@ a {
   flex-direction: row;
   color: #000000;
 }
-.pets_logo {
-  background: url();
-}
 .name {
   display: block;
   margin: 0;
@@ -228,4 +225,18 @@ a {
   font-weight: 300;
   font-size: 15px;
   line-height: 120%;
+}
+.pets_logo {
+  margin-left: 120px;
+  width: 37px;
+  height: 37px;
+}
+.panda {
+  background: url(../img/banana-bamboo_icon.png);
+}
+.fish {
+  background: url(../img/meet-fish_icon.png);
+}
+.banana {
+  background: url(../img/banana-bamboo_icon.png);
 }
