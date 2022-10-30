@@ -303,6 +303,7 @@ p {
 .main_text_pff {
   margin-left: 99px;
   margin-top: 30px;
+  display: block;
 }
 .second_text {
   margin-bottom: 40px;
@@ -317,9 +318,15 @@ p {
   font-size: 16px;
   line-height: 130%;
 }
-.fout_text {
+.four_text {
   width: 863px;
   font-weight: 400;
   font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 60px;
+}
+.title_2 {
+  font-weight: 400;
+  font-size: 36px;
   line-height: 130%;
 }
