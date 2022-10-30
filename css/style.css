@@ -107,7 +107,7 @@ a {
   margin-left: 983px;
   margin-top: 60px;
 }
-.button_panda {
+.button {
   display: block;
   background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
   border-radius: 25px;
@@ -251,3 +251,10 @@ a {
   margin-top: 8px;
   margin-left: 16px;
 }
+/* button 'choose your favorite'*/
+.button_pets_wrap {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
