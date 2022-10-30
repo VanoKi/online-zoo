@@ -175,13 +175,34 @@ a {
   height: 872px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .item_pets {
   border: solid 2px red; 
   width: 366px;
   height: 426px;
+  display: flex;
+  flex-direction: column;
 }
 .item_img {
+  width: 366px;
+  height: 366px;
+}
+.card_1 {
   background: url(../img/Rectangle\ 5.png);
 }
-
+.card_2 {
+  background: url(../img/Rectangle\ 5\ eagle.png);
+}
+.card_3 {
+  background: url(../img/Rectangle\ 5\ gorilla.png);
+}
+.card_4 {
+  background: url(../img/Rectangle\ 5\ sloth.png);
+}
+.card_5 {
+  background: url(../img/Rectangle\ 5\ cheetas.png);
+}
+.card_6 {
+  background: url(../img/Rectangle\ 5\ pingwin.png);
+}
