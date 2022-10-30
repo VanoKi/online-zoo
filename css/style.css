@@ -184,6 +184,12 @@ a {
   display: flex;
   flex-direction: column;
 }
+.item_move_right {
+  margin-right: 30px;
+}
+.item_move_down {
+  margin-bottom: 20px;
+}
 .item_img {
   width: 364px;
   height: 366px;
