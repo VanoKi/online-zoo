@@ -200,6 +200,7 @@ a {
 .item_img {
   width: 364px;
   height: 366px;
+  border-radius: 2px;
 }
 .card_1 {
   background: url(../img/Rectangle\ 5.png);
@@ -283,4 +284,42 @@ a {
   height: 835px;
   background: rgba(253, 253, 255, 0.52);
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin-top: 41px;
+  display: block;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #FE9013;
+}
+p {
+  margin: 0;
+}
+.main_text_pff {
+  margin-left: 99px;
+  margin-top: 30px;
+}
+.second_text {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333B41;
+}
+.third_text {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+}
+.fout_text {
+  width: 863px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
 }
