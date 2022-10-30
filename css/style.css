@@ -170,7 +170,6 @@ a {
 }
 /*pets*/
 .pets {
-  border: solid 2px red;
   width: 1158px;
   height: 872px;
   display: flex;
@@ -178,14 +177,15 @@ a {
   justify-content: space-around;
 }
 .item_pets {
-  border: solid 2px red; 
+  border: solid 1px #FA6F32;
+  border-radius: 5px; 
   width: 366px;
   height: 426px;
   display: flex;
   flex-direction: column;
 }
 .item_img {
-  width: 366px;
+  width: 364px;
   height: 366px;
 }
 .card_1 {
@@ -227,7 +227,7 @@ a {
   line-height: 120%;
 }
 .pets_logo {
-  margin-left: 120px;
+  margin-right: 12px;
   width: 37px;
   height: 37px;
 }
