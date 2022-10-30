@@ -326,7 +326,14 @@ p {
   margin-bottom: 60px;
 }
 .title_2 {
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 36px;
   line-height: 130%;
+}
+.pay_container {
+  border: solid 2px red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
